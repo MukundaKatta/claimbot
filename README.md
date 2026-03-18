@@ -1,43 +1,11 @@
 # claimbot
 
-**ClaimBot — AI Insurance Claim Processor. Automated insurance claim assessment and processing.**
+Stub Python project. Described as "AI Insurance Claim Processor" for "automated insurance claim assessment and processing," but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A stub class in `src/core.py` with generic methods that all return `{"ok": True}` without doing any real work. Uses only Python standard library imports. There is no claim processing logic, no assessment algorithms, no insurance domain code, and no AI integration.
 
-## Quick Start
-```python
-from src.core import Claimbot
- instance = Claimbot()
-r = instance.analyze(input="test")
-```
+## Status
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
-
-## API
-| Method | Description |
-|--------|-------------|
-| `analyze()` | Analyze |
-| `evaluate()` | Evaluate |
-| `score()` | Score |
-| `compare()` | Compare |
-| `get_insights()` | Get insights |
-| `generate_report()` | Generate report |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. None of the advertised insurance claim processing functionality exists.
