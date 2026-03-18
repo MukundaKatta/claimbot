@@ -1,11 +1,14 @@
-# claimbot
+# ClaimBot
 
-Stub Python project. Described as "AI Insurance Claim Processor" for "automated insurance claim assessment and processing," but none of that functionality exists.
+AI-powered insurance claim processor for automated claim assessment and processing.
 
-## What's actually here
+## About
+ClaimBot streamlines the insurance claims workflow by using AI to assess, categorize, and process claims. It analyzes claim documentation, estimates damages, flags potential fraud, and routes claims through appropriate review channels - reducing processing time and improving accuracy.
 
-A stub class in `src/core.py` with generic methods that all return `{"ok": True}` without doing any real work. Uses only Python standard library imports. There is no claim processing logic, no assessment algorithms, no insurance domain code, and no AI integration.
+## Tech Stack
+- Python
+- Click/Typer (CLI)
+- LLM integration for document analysis
 
 ## Status
-
-Scaffolding only. None of the advertised insurance claim processing functionality exists.
+Active development - core architecture and project structure established.
